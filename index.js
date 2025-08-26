@@ -81,9 +81,10 @@ document
       document.getElementById("cart-btn-sport-1").parentNode.parentNode
         .children[1].innerText;
 
-    const price =
+    const price = Number(
       document.getElementById("cart-btn-sport-1").parentNode.parentNode
-        .children[2].innerText;
+        .children[2].innerText
+    );
     const img =
       document.getElementById("cart-btn-sport-1").parentNode.parentNode
         .parentNode.children[0].children[0].src;
