@@ -14,19 +14,19 @@
      <!-- daisyUi_Link -->
       <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body class="bg-[#1111110D]">
 
-    <header class="shadow-sm">
-        <nav class="flex  justify-center items-center gap-1 py-2">
+    <!-- header_section -->
+    <header class=" bg-gradient-to-b from-[#ffffff] to-[#F6DDEA]">
+        <nav class="flex  justify-center items-center gap-1 py-2 shadow-sm ">
         <div ><img src="./assets/logo.png" class=" w-12" alt="logo"></div>
         <div><h1 class="text-[#e71580] ">Deshi <span class="font-bold">Deals</span></h1>
         <p class="text-[#797075] ">cheap Price , Dest Quality</p>
         </div>
     </nav>
-    </header>
 
     <!-- banner_section -->
-     <section class="text-center bg-gradient-to-b from-[#ffffff] to-[#F6DDEA] mb-[100px] relative flex justify-center items-center my-[60px]"> 
+     <section class="text-center  mb-[100px] relative flex justify-center items-center pt-[60px] "> 
         <div>
             
             <h1 class="font-bold text-[40px] md:text-[58px]  ">Purchase TK 200 or above & get <br/><span class="text-[#e71580]">20% off</span> </h1>
@@ -40,7 +40,242 @@
        </div>
         </div>
      </section>
+    </header>
+
+    
 
 
+     <!-- grid_section -->
+
+     <section class="grid w-11/12 mx-auto grid-cols-12 py-10 gap-8 ">
+
+        <!-- product_section -->
+       <section class="col-span-9"> 
+
+        <!-- Kitchenware -->
+           <div>
+               
+                <div class="grid grid-cols-3 gap-5 ">
+
+                    <div id="kitchen-card-1" class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/kitchen-1.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="kitchen-title-1" class="card-title">K. Accessories</h2>
+                                <p class="text-[#797075] "><span id="kitchen-price-1">39.00</span> TK</p>
+                                <div class="card-actions">
+                                <button class="btn  !bg-pink-500 hover:bg-pink-600 !text-white " id="cart-btn-kitchen-1">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <div id="kitchen-card-2" class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/kitchen-2.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="kitchen-title-2" class="card-title">K.Accessories</h2>
+                                <p class="text-[#797075] "><span id="kitchen-price-2">250.00</span> TK</p>
+                                <div class="card-actions">
+                                <button class="btn  !bg-pink-500 hover:bg-pink-600 !text-white " id="cart-btn-kitchen-2">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div id="kitchen-card-3" class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/kitchen-3.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="kitchen-title-3"class="card-title">Home Cooker</h2>
+                                <p class="text-[#797075] "><span id="kitchen-price-3">750.00 </span>TK</p>
+                                <div class="card-actions">
+                                <button class="btn  !bg-pink-500 hover:bg-pink-600 !text-white " id="cart-btn-kitchen-3">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+           </div>
+
+           <!-- sport_section -->
+           <div class="my-4">
+                <h1 class="text-3xl font-bold">Sport</h1>
+                <div class="grid grid-cols-3 gap-5 ">
+
+                    <div class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/sports-1.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="sport-title-1" class="card-title"><Caption></Caption>Sports Back Cap</h2>
+                                <p  class="text-[#797075] "><span id="sport-price-1">200.00</span> TK</p>
+                                <div class="card-actions">
+                                <button id="cart-btn-sport-1" class="btn  !bg-pink-500 hover:bg-pink-600 !text-white ">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <div class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/sports-2.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="sport-title-2" class="card-title">Full Jersey Set</h2>
+                                <p  class="text-[#797075] "><span id="sport-price-2">1050.00</span> TK</p>
+                                <div class="card-actions">
+                                <button id="cart-btn-sport-2" class="btn  !bg-pink-500 hover:bg-pink-600 !text-white ">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/sports-3.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="sport-title-3" class="card-title">Sports cates</h2>
+                                <p class="text-[#797075] "><span id="sport-price-3">750.00 </span>TK</p>
+                                <div class="card-actions">
+                                <button id="cart-btn-sport-3" class="btn  !bg-pink-500 hover:bg-pink-600 !text-white ">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+           </div>
+
+
+           <!-- furniture_section -->
+           <div>
+                <h1 class="text-3xl font-bold">Furniture</h1>
+                <div class="grid grid-cols-3 gap-5 ">
+
+                    <div class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/furniture-1.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2 id="furniture-title-1" class="card-title">Single Relax Chair</h2>
+                                <p class="text-[#797075] "><span id="furniture-price-1">3000.00</span> TK</p>
+                                <div class="card-actions">
+                                <button id="cart-btn-furniture-1" class="btn  !bg-pink-500 hover:bg-pink-600 !text-white ">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+
+
+                    <div class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/furniture-2.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2  id="furniture-title-2"  class="card-title">Children Play</h2>
+                                <p class="text-[#797075] "><span id="furniture-price-2">1250.00</span> TK</p>
+                                <div class="card-actions">
+                                <button id="cart-btn-furniture-2"  class="btn  !bg-pink-500 hover:bg-pink-600 !text-white ">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="card bg-base-100 shadow-sm">
+                            <figure class=" bg-gray-200  my-2  mx-6 rounded-md">
+                                <img
+                                src="./assets/furniture-3.png"
+                                alt="kitchen-1"
+                                class=" p-4 " />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                
+                                <p>⭐⭐⭐⭐⭐</p>
+                                <h2  id="furniture-title-3"  class="card-title">Flexible Sofa</h2>
+                                <p class="text-[#797075] "><span id="furniture-price-3">3350.00</span> TK</p>
+                                <div class="card-actions">
+                                <button id="cart-btn-furniture-3"  class="btn  !bg-pink-500 hover:bg-pink-600 !text-white ">Add to Cart</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+           </div>
+    </section>
+
+    <!-- cart_section -->
+        <aside class="col-span-3 ">
+                <div class="px-4 bg-[#ffffff] py-6 rounded-lg">
+                    <h1 class="font-bold mb-2">Have cupuon?</h1>
+                    <div class="join">
+                        <input id="coupon-pin" class="input join-item" placeholder="Coupon Code" />
+                        <button id="coupon-btn" class="btn join-item rounded-r-full !bg-pink-500 !text-white">Apply</button>
+                    </div>
+                
+                </div>
+
+
+                <div class="bg-white my-8 p-3">
+                    <div class="bg-white flex flex-col gap-2 pb-3" id="cart-item-container">
+    
+                        
+                    </div>
+                    <div class="" id="card-container">
+                        <div >
+                            <h2 class="font-bold">Total Price : <span id="total-price" class="text-[#797075] ">0</span> TK</h2>
+                            <h2 class="font-bold">Discount : <span id="total-discount" class="text-[#797075] ">0</span> TK</h2>
+                            <h2 class="font-bold">Total : <span id="total" class="text-[#797075] ">0</span> TK</h2>
+                            <div class="mt-5">
+                                <button class="btn  !bg-pink-500 hover:bg-pink-600 !text-white w-full">Add to Cart</button>
+                                </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+       </aside>
+
+     </section>
+
+
+
+     <script src="./index.js"></script>
   </body>
 </html>
