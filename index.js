@@ -12,6 +12,7 @@ function getPrice(id) {
 function costCalculation(price) {
   let totalPrice = getPrice("total-price");
   const currCost = totalPrice + price;
+
   document.getElementById("total-price").innerText = currCost;
   document.getElementById("total").innerText = currCost;
 }
