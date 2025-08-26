@@ -81,7 +81,7 @@ document
     const title = getTitle("sport-title-1");
 
     const price = getPrice("sport-price-1");
-    const img = costCalculation(price);
+    costCalculation(price);
     cartCard(title, price, "./assets/sports-1.png");
   });
 document
