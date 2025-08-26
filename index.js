@@ -77,20 +77,11 @@ document.getElementById("coupon-btn").addEventListener("click", function () {
 document
   .getElementById("cart-btn-sport-1")
   .addEventListener("click", function () {
-    const title =
-      document.getElementById("cart-btn-sport-1").parentNode.parentNode
-        .children[1].innerText;
+    const title = getTitle("sport-title-1");
 
-    const price = Number(
-      document.getElementById("cart-btn-sport-1").parentNode.parentNode
-        .children[2].innerText
-    );
-    const img =
-      document.getElementById("cart-btn-sport-1").parentNode.parentNode
-        .parentNode.children[0].children[0].src;
-    console.log(img);
-    costCalculation(price);
-    cartCard(title, price, img);
+    const price = getPrice("sport-price-1");
+    const img = costCalculation(price);
+    cartCard(title, price, "./assets/sports-1.png");
   });
 document
   .getElementById("cart-btn-sport-2")
